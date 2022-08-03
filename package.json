@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/Nayejun/post-it.git",
   "author": "4YJ",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "prettier": "^2.7.1"
+  }
 }
