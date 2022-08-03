@@ -1,0 +1,8 @@
+{
+  "name": "post-it",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/Nayejun/post-it.git",
+  "author": "4YJ",
+  "license": "MIT"
+}
