@@ -1,10 +1,13 @@
 import requests
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup
 
-page = requests.get("https://library.gabia.com/")
-soup = bs(page.text, "html.parser")
+url = 'https://brunch.co.kr/@trendlite/220'
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
+data = requests.get(url, headers=headers)
+soup = BeautifulSoup(data.text, 'html.parser')
 
-elements = soup.select('div.esg-entry-content a > span')
-
-for index, element in enumerate(elements, 1):
-		print("{} 번째 게시글의 제목: {}".format(index, element.text))
+title = soup.select_one('meta[property="og:title"]')['content']
+image = soup.select_one('meta[property="og:image"]')['content']
+desc = soup.select_one('meta[property="og:description"]')['content']
+print(title, image, desc)
