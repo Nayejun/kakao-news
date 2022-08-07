@@ -14,23 +14,29 @@ def import_posts():
     find_posts = soup.find_all('li', class_='post-card')
 
     this_is_posts = []
-
     for find_post in find_posts:
         post = find_post.find(
             'a', class_='post-link')
         image = find_post.find(
             'img', attrs={'class': 'image-avatar'})
         title = find_post.find(
-            'h3', class_='post-title')
+            'h3', class_='post-title').get_text()
         summary = find_post.find(
             'p', class_='title-summary')
         url = ROOT_URL + post.attrs['href']
 
-        this_is_posts.append({
-            'title': title,
-            'summary': summary,
-            'href': url,
-            'image': image,
-        })
+        if (summary == None):
+            this_is_posts.append({
+                'title': title,
+                'href': url,
+                'image': image,
+            })
+        else:
+            this_is_posts.append({
+                'title': title,
+                'summary': summary,
+                'href': url,
+                'image': image,
+            })
 
     return this_is_posts
