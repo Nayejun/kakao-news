@@ -25,18 +25,17 @@ def import_posts():
             'p', class_='title-summary')
         url = ROOT_URL + post.attrs['href']
 
-        if (summary == None):
+        if (summary == None or image == None):
             this_is_posts.append({
                 'title': title,
                 'href': url,
-                'image': image,
             })
         else:
             this_is_posts.append({
                 'title': title,
-                'summary': summary,
+                'summary': summary.text,
                 'href': url,
-                'image': image,
+                'image': image.attrs['src'],
             })
 
     return this_is_posts
