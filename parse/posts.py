@@ -24,7 +24,7 @@ def import_posts():
             'h3').find('a').get_text()
         title_arrangement = title.replace('\t', '').replace('\n', '')
         href = find_post.find(
-            'h3').find('a')
+            'h3').find('a').attrs['href']
         this_is_posts.append({
             'title': title_arrangement,
             'href': href
