@@ -1,190 +1,35 @@
 [
   {
-    "title": " 컬리 검색이 카프카를 들여다본 이야기 1 ",
-    "href": "https://helloworld.kurly.com/blog/search-system-with-kafka-1/"
+    "title": "TSDB as a Service, TSCoke 개발기"
   },
   {
-    "title": " 스크럼, 입고팀이 애자일하게 일하는 법 2부 ",
-    "summary": "개발자 입장에서 쓴 스크럼 운영 후기",
-    "href": "https://helloworld.kurly.com/blog/inbound-squad-sprint-2/",
-    "image": "https://github.com/JoyDaheeCha.png?size=40"
+    "title": "2022 테크 여름인턴십 코딩테스트 해설"
   },
   {
-    "title": " 스크럼, 입고팀이 애자일하게 일하는 법 1부 ",
-    "summary": "스크럼 운영 방안 맛보기",
-    "href": "https://helloworld.kurly.com/blog/inbound-squad-sprint-1/",
-    "image": "https://github.com/JoyDaheeCha.png?size=40"
+    "title": "전자증명서 리액트 페이지 및 레이어 동적 라우팅"
   },
   {
-    "title": " 팀을 더욱 유연하게 만들어가는 힘 ",
-    "summary": "체계라 쓰지만 보이지 않는 환상속 기린 같은 단어를 팀에 어울리게 써보자",
-    "href": "https://helloworld.kurly.com/blog/squad-b-team-building/",
-    "image": "https://github.com/intaek-oh-kurlycorp.png?size=40"
+    "title": "TSDB as a Service, TSCoke 개발기"
   },
   {
-    "title": " 2022년 2월 마켓컬리 개발자 밋업 후기 ",
-    "href": "https://helloworld.kurly.com/blog/review-20220224-tech-meetup/"
+    "title": "2022 테크 여름인턴십 코딩테스트 해설"
   },
   {
-    "title": " 컬리에서 데이터 분석가로 일한다는 것 ",
-    "summary": "맛있는 데이터를 만드는 방법",
-    "href": "https://helloworld.kurly.com/blog/how-to-work-da/",
-    "image": "https://github.com/leeminsik.png?size=40"
+    "title": "전자증명서 리액트 페이지 및 레이어 동적 라우팅"
   },
   {
-    "title": " 우리는 왜 공통 라이브러리를 만들기 시작했나 ",
-    "href": "https://helloworld.kurly.com/blog/why-we-make-common-library/"
+    "title": "서버 개발자를 위한 운영툴 개발"
   },
   {
-    "title": " DevOps팀의 Terraform 모험 ",
-    "href": "https://helloworld.kurly.com/blog/terraform-adventure/"
+    "title": "My구독의 React Query 전환기"
   },
   {
-    "title": " 카트 개발 연대기 ",
-    "summary": "컬리 카트는 어떤 모습으로 성장하고 있을까?",
-    "href": "https://helloworld.kurly.com/blog/my-cart-development-history/",
-    "image": "https://github.com/jinsilkim819.png?size=40"
+    "title": "오픈소스 검증 도구: OLIVE CLI 소개"
   },
   {
-    "title": " DDD와 MSA 기반으로 좋은 서비스 개발하기 ",
-    "href": "https://helloworld.kurly.com/blog/ddd-msa-service-development/"
+    "title": "Swift Package Manager 적용기"
   },
   {
-    "title": " 왜 폴 그레이엄은 회사 이름을 Y Combinator라고 지었을까 ",
-    "href": "https://helloworld.kurly.com/blog/y-combinator/"
-  },
-  {
-    "title": " 두근두근 컬리의 면접, 팀에서 성장하기 ",
-    "href": "https://helloworld.kurly.com/blog/experience-the-kurly-interview-process/"
-  },
-  {
-    "title": " 신규 서비스 배포 전에 실험과 개선을 반복한 이야기 ",
-    "href": "https://helloworld.kurly.com/blog/vsms-performance-experiment/"
-  },
-  {
-    "title": " 컬리에서 선물하기를 개발하며 회고 ",
-    "summary": "주문서비스 개발팀이 선물하기 서비스를 오픈하기 까지 여정",
-    "href": "https://helloworld.kurly.com/blog/gift-order-development/",
-    "image": "https://github.com/audtjddld.png?size=40"
-  },
-  {
-    "title": " React 이해하기 ",
-    "summary": "React의 기본 개념에 대해 알아봅시다",
-    "href": "https://helloworld.kurly.com/blog/thinking-in-react/",
-    "image": "https://github.com/3794.png?size=40"
-  },
-  {
-    "title": " JPA 덕분에 DB에서 삽질한 이야기 ",
-    "summary": "DB에 저장을 했는데, 조회가 안 돼요",
-    "href": "https://helloworld.kurly.com/blog/jpa-uuid-sapjil/",
-    "image": "https://github.com/kurly-jehuipark.png?size=40"
-  },
-  {
-    "title": " Lambda Calculus에 대해 알아보자 ",
-    "summary": "그만 알아보자",
-    "href": "https://helloworld.kurly.com/blog/lambda-calculus-1/",
-    "image": "https://github.com/ssisksl77.png?size=40"
-  },
-  {
-    "title": " 코드 악취를 맡는 후각 훈련의 시간 ",
-    "href": "https://helloworld.kurly.com/blog/rms-refactoring/"
-  },
-  {
-    "title": " Database Driven Development에서 진짜 DDD로의 선회, 이벤트 스토밍 -2- ",
-    "summary": "DDD를 위한 첫걸음. Event Storming",
-    "href": "https://helloworld.kurly.com/blog/event-storming/",
-    "image": "https://github.com/kurly09.png?size=40"
-  },
-  {
-    "title": " PHP Development Roadmap In 2020 At Kurly ",
-    "summary": "2020 컬리 PHP 개발자 로드맵",
-    "href": "https://helloworld.kurly.com/blog/cpd-developer-roadmap-2020/",
-    "image": "https://github.com/youngjin-yun-kurly.png?size=40"
-  },
-  {
-    "title": " 마켓컬리에서의 PHP 이야기 ",
-    "summary": "마켓컬리에서의 PHP 이야기",
-    "href": "https://helloworld.kurly.com/blog/php-development-in-kurly/",
-    "image": "https://github.com/youngjin-yun-kurly.png?size=40"
-  },
-  {
-    "title": " 신규입사자가 바로보는 마켓컬리 ",
-    "summary": "컬리 개발조직 맛보기",
-    "href": "https://helloworld.kurly.com/blog/newbie-mansei/",
-    "image": "https://github.com/wyparks2.png?size=40"
-  },
-  {
-    "title": " AWS Sagemaker Ground Truth로 훈련용 이미지를 편하게 분류하자 ",
-    "summary": "컬리에서도 소소하게 머신러닝을 사용하고 있습니다",
-    "href": "https://helloworld.kurly.com/blog/aws-ground-truth/",
-    "image": "https://github.com/hi-phen.png?size=40"
-  },
-  {
-    "title": " Slack Block Kit 활용 ",
-    "href": "https://helloworld.kurly.com/blog/slack_block_kit/"
-  },
-  {
-    "title": " Kurly에서 주문을 모니터링 하는 법 ",
-    "summary": "Legacy 시스템에서 주문 모니터링을 Elasticsearch로 이전했습니다.",
-    "href": "https://helloworld.kurly.com/blog/order-monitoring-service/",
-    "image": "https://github.com/junhyuk-noh-kurly.png?size=40"
-  },
-  {
-    "title": " 개발자들이 꺼려하는 까칠한 규식이 형 ",
-    "summary": "정규식(Regular Expression)과 슬랙 채널 공유로 주문서 이름에 특수 문자 입력을 막은 에피소드",
-    "href": "https://helloworld.kurly.com/blog/reg-exp-01/",
-    "image": "https://github.com/zebra0303.png?size=40"
-  },
-  {
-    "title": " 새로 입사한 개발자가 프로젝트에 기여하는 방법 한 가지 ",
-    "summary": "프로젝트 전체의 경고를 감소 시켜 팀에 기여하자!",
-    "href": "https://helloworld.kurly.com/blog/fix-style-with-command/",
-    "image": "https://github.com/johngrib.png?size=40"
-  },
-  {
-    "title": " DevOps 엔지니어의 Redis Test 분투기 - Part 1 ",
-    "href": "https://helloworld.kurly.com/blog/redis-fight-part-1/"
-  },
-  {
-    "title": " Database Driven Development에서 진짜 DDD로의 선회 -1- ",
-    "summary": "DDD에 대한 오해에서 벗어나고 개발의 즐거움을 깨달은 이야기",
-    "href": "https://helloworld.kurly.com/blog/road-to-ddd/",
-    "image": "https://github.com/kurly09.png?size=40"
-  },
-  {
-    "title": " 잘못 작성된 람다 코드를 삭제하기까지의 여정 ",
-    "summary": "람다 코드를 제거하는 과정의 경험을 공유합니다.",
-    "href": "https://helloworld.kurly.com/blog/study-in-lambda/",
-    "image": "https://github.com/ljihoon.png?size=40"
-  },
-  {
-    "title": " BDD로 테스트에 중독되어 보자 ",
-    "summary": "나라가 허락한 유일한 마약",
-    "href": "https://helloworld.kurly.com/blog/try-bdd/",
-    "image": "https://github.com/hi-phen.png?size=40"
-  },
-  {
-    "title": " 들어는 보았나 몹 프로그래밍! ",
-    "href": "https://helloworld.kurly.com/blog/mob-programming/"
-  },
-  {
-    "title": " 기술 블로그를 다시 디자인하며 ",
-    "summary": "컬리 기술 블로그에 생기가 돌아온다!!",
-    "href": "https://helloworld.kurly.com/blog/redesign-tech-blog/",
-    "image": "https://github.com/johngrib.png?size=40"
-  },
-  {
-    "title": " 쿠폰과 할인으로 앞다리살 하나 더 판매한 이야기 ",
-    "summary": "왜 그 손님은 쿠폰을 사용하지 못했나",
-    "href": "https://helloworld.kurly.com/blog/%EC%BF%A0%ED%8F%B0%EA%B3%BC-%ED%95%A0%EC%9D%B8%EC%9C%BC%EB%A1%9C-%EC%95%9E%EB%8B%A4%EB%A6%AC%EC%82%B4-%ED%95%98%EB%82%98-%EB%8D%94-%ED%8C%90%EB%A7%A4%ED%95%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/",
-    "image": "https://github.com/hi-phen.png?size=40"
-  },
-  {
-    "title": " 마켓컬리 서비스 구조를 소개 합니다 ",
-    "href": "https://helloworld.kurly.com/blog/market-kurly-service-architecture/"
-  },
-  {
-    "title": " Welcome to 마켓컬리! ",
-    "href": "https://helloworld.kurly.com/blog/welcome-to-kurly/"
+    "title": "카카오 AI추천 : 카카오 음악 추천을 경험해보고 싶다면? Melon Playlist Dataset (feats. Kakao Arena)"
   }
 ]
