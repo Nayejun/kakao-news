@@ -1,4 +1,4 @@
-# 💌 Post IT - 포스트잇
+# 🧑‍💻 KAKAO TECH NEWS
 
 <img src="https://user-images.githubusercontent.com/67637706/184671806-2ca36e86-85f4-41a9-92e7-741b49aad525.png" width="700px">
 
