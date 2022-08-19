@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
+import { 묶어버리기 } from '../컴포넌트/집합소';
+
 const Home: NextPage = () => {
   return (
     <>
@@ -11,6 +13,7 @@ const Home: NextPage = () => {
         <meta content="yes" name="apple-mobile-web-app-capable" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <묶어버리기 />
     </>
   );
 };
