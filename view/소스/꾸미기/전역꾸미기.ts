@@ -1,6 +1,6 @@
 import { css } from "@emotion/react";
 
-export const GlobalStyles = css`
+export const 전역꾸미기 = css`
    * {
       margin: 0;
       padding: 0;

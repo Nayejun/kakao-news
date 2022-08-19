@@ -1,13 +1,13 @@
 import { Global } from '@emotion/react';
 import type { AppProps } from 'next/app';
 
-import { GlobalStyles } from '../styles/GlobalStyle';
+import { 전역꾸미기 } from '../꾸미기/전역꾸미기';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Global styles={GlobalStyles} />
+      <Global styles={전역꾸미기} />
     </>
   );
 }
